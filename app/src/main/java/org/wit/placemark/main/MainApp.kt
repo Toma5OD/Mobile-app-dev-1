@@ -18,6 +18,6 @@ class MainApp : Application() {
         Timber.plant(Timber.DebugTree())
         placemarks = PlacemarkJSONStore(applicationContext)
         users = UserJSONStore(applicationContext)
-        i("Placemark started")
+        i("Hit List started")
     }
 }

@@ -2,15 +2,11 @@ package org.wit.placemark.models
 
 
 import android.content.Context
-import android.net.Uri
-import com.google.gson.Gson
-import com.google.gson.GsonBuilder
 import com.google.gson.reflect.TypeToken
 
 import org.wit.placemark.helpers.exists
 import org.wit.placemark.helpers.read
 import org.wit.placemark.helpers.write
-import org.wit.placemark.models.gsonBuilder
 import timber.log.Timber
 import java.lang.reflect.Type
 import java.util.ArrayList
