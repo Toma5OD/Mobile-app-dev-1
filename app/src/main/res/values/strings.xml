@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Kill List</string>
+    <string name="app_name">Hit List</string>
     <string name="button_addPlacemark">Add Target</string>
     <string name="hint_placemarkTitle">Target Name</string>
     <string name="hint_placemarkDescription">Description </string>
@@ -14,7 +14,19 @@
     <string name="title_activity_map">Map</string>
     <string name="menu_deletePlacemark">Delete</string>
     <string name="title_activity_placemark_maps">Map of All Targets </string>
-    <string name="placemark_image_placeholder">Target Imagee</string>
+    <string name="placemark_image_placeholder">Target Image</string>
     <string name="placemark_title_placeholder">Target Title</string>
     <string name="placemark_description_placeholder">Target Description</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="second_name">Second Name</string>
+    <string name="sign_register_in">Sign in or register</string>
+    <string name="sign_in">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Incorrect Password</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="sign_up">"Sign Up"</string>
+    <string name="email_taken">"This email is already in use"</string>
 </resources>

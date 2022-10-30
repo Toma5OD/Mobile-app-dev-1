@@ -16,7 +16,7 @@
         android:gravity="center"
         android:layout_marginTop="300dp"
         android:padding="70dp"
-        android:text="Kill List App"
+        android:text="Hit List App"
         android:textColor="@color/white"
         android:textSize="35dp"
         android:textStyle="bold"

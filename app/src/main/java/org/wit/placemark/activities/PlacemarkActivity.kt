@@ -2,16 +2,13 @@ package org.wit.placemark.activities
 
 import android.content.Intent
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
-import com.google.android.gms.maps.GoogleMap
-import com.google.android.gms.maps.model.Marker
+import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.snackbar.Snackbar
-import com.squareup.picasso.MemoryPolicy
 import com.squareup.picasso.Picasso
 import org.wit.placemark.R
 import org.wit.placemark.databinding.ActivityPlacemarkBinding
@@ -19,13 +16,14 @@ import org.wit.placemark.main.MainApp
 import org.wit.placemark.models.Location
 import org.wit.placemark.models.PlacemarkModel
 import org.wit.placemark.showImagePicker
-import timber.log.Timber
+import org.wit.placemark.models.UserModel
 import timber.log.Timber.i
 
 class PlacemarkActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityPlacemarkBinding
     var placemark = PlacemarkModel()
+    var user = UserModel()
     lateinit var app: MainApp
     private lateinit var imageIntentLauncher : ActivityResultLauncher<Intent>
     private lateinit var mapIntentLauncher : ActivityResultLauncher<Intent>

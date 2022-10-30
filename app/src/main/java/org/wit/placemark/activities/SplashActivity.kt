@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 import org.wit.placemark.R
 
+@Suppress("DEPRECATION")
 class SplashActivity : AppCompatActivity() {
 
     // This is the loading time of the splash screen
@@ -18,7 +19,7 @@ class SplashActivity : AppCompatActivity() {
         Handler().postDelayed({
             // This method will be executed once the timer is over
 
-            startActivity(Intent(this,PlacemarkListActivity::class.java))
+            startActivity(Intent(this,LoginActivity::class.java))
 
             // close this activity
             finish()
